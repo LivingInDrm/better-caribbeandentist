@@ -830,3 +830,415 @@ textarea:focus {
     border-radius: 24px;
   }
 }
+
+/* =====================================================================
+   Homepage v2 — tile-brand restoration of caribbeandentist.com mock
+   ===================================================================== */
+
+.page-home {
+  background: #f6ecda;
+}
+
+.home-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: #f6ecda;
+  backdrop-filter: none;
+  border-bottom: 1px solid rgba(81, 55, 31, .08);
+}
+
+.home-header .nav {
+  padding: 14px 0;
+}
+
+.brand-tile {
+  gap: 14px;
+}
+
+.brand-mark-tile {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background: transparent;
+  box-shadow: 0 8px 22px rgba(81, 55, 31, .14);
+  object-fit: cover;
+}
+
+.brand-stack {
+  display: grid;
+  line-height: 1;
+  gap: 4px;
+}
+
+.brand-stack strong {
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: var(--walnut);
+  letter-spacing: -.01em;
+}
+
+.brand-stack small {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  color: var(--seafoam-ink);
+  letter-spacing: .22em;
+}
+
+.login-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 1.5px solid var(--terracotta);
+  border-radius: 999px;
+  color: var(--terracotta-deep);
+  font-weight: 800;
+  font-size: 14px;
+  background: transparent;
+  white-space: nowrap;
+}
+
+.login-pill:hover {
+  background: rgba(200, 111, 82, .08);
+}
+
+.hero-tile {
+  padding: 56px 0 64px;
+}
+
+.hero-tile-grid {
+  display: grid;
+  gap: 32px;
+  align-items: center;
+}
+
+.hero-tile-copy h1 {
+  font-size: clamp(40px, 7.6vw, 70px);
+  line-height: 1.05;
+  letter-spacing: -.03em;
+  color: var(--walnut);
+  margin: 0;
+  text-wrap: balance;
+}
+
+.hero-tile-copy h1 em {
+  font-style: italic;
+  color: var(--walnut);
+}
+
+.hero-wave {
+  display: block;
+  margin: 20px 0 0;
+}
+
+.hero-tile-lede {
+  margin-top: 22px;
+  max-width: 540px;
+  font-size: clamp(17px, 2.2vw, 21px);
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.hero-cta {
+  background: var(--terracotta);
+  box-shadow: 0 14px 34px rgba(200, 111, 82, .32);
+  padding: 16px 26px;
+  font-size: 15px;
+}
+
+.hero-tile-media {
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 30px 70px rgba(81, 55, 31, .18);
+}
+
+.hero-tile-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.feature-strip {
+  padding: 28px 0 48px;
+  background: #f6ecda;
+}
+
+.feature-strip-grid {
+  display: grid;
+  gap: 28px;
+}
+
+.feature-item {
+  display: grid;
+  gap: 10px;
+  padding: 8px 4px;
+}
+
+.feature-item img {
+  width: 40px;
+  height: 40px;
+}
+
+.feature-item h3 {
+  margin: 0;
+  font-size: 17px;
+  letter-spacing: -.01em;
+  color: var(--walnut);
+}
+
+.feature-item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 220px;
+}
+
+.review-band {
+  padding: 64px 0;
+  background: var(--seafoam);
+  color: var(--coconut);
+}
+
+.review-band-grid {
+  display: grid;
+  gap: 22px;
+}
+
+.review-band-card {
+  background: var(--coconut);
+  color: var(--walnut);
+  border-radius: 18px;
+  padding: 24px 22px;
+  box-shadow: 0 22px 40px rgba(31, 77, 64, .18);
+}
+
+.review-band-card .stars {
+  display: inline-flex;
+  gap: 2px;
+  margin-bottom: 12px;
+}
+
+.review-band-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--walnut);
+  margin: 0 0 14px;
+}
+
+.review-band-card footer {
+  font-weight: 800;
+  font-size: 14px;
+  color: var(--seafoam-ink);
+}
+
+.business-card {
+  position: relative;
+  background: var(--coconut);
+  overflow: hidden;
+}
+
+.business-card-tile {
+  position: absolute;
+  top: -32px;
+  right: -32px;
+  width: 140px;
+  height: 140px;
+  border-radius: 12px;
+  opacity: .28;
+  pointer-events: none;
+}
+
+.business-card ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 18px;
+  position: relative;
+}
+
+.business-card li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  color: var(--walnut);
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.business-card li svg {
+  flex: 0 0 auto;
+  color: var(--terracotta-deep);
+  margin-top: 2px;
+}
+
+.business-card a {
+  color: var(--walnut);
+  font-weight: 700;
+}
+
+.business-card a:hover {
+  color: var(--terracotta-deep);
+}
+
+.tagline-strip {
+  background: var(--walnut);
+  color: var(--coconut);
+  text-align: center;
+  padding: 22px 16px;
+}
+
+.tagline-strip p {
+  margin: 0;
+  font-family: "Fraunces", serif;
+  font-size: clamp(14px, 1.8vw, 18px);
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  display: inline-flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tagline-strip img {
+  filter: brightness(0) invert(1);
+  opacity: .9;
+}
+
+/* Hide top-note and main footer on the home page (info lives in business card + tagline strip) */
+.page-home .top-note,
+.page-home .footer {
+  display: none;
+}
+
+/* Tablet — homepage */
+@media (min-width: 641px) {
+  .hero-tile-grid {
+    grid-template-columns: 1.05fr 1fr;
+    gap: 40px;
+  }
+
+  .feature-strip-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 28px 36px;
+  }
+
+  .review-band-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Desktop — homepage */
+@media (min-width: 1025px) {
+  .home-header .nav-links {
+    position: static;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .home-header .nav-links a {
+    color: var(--walnut);
+    font-weight: 700;
+    font-size: 14px;
+    padding: 6px 2px;
+    background: transparent;
+    border-radius: 0;
+    position: relative;
+    letter-spacing: .01em;
+  }
+
+  .home-header .nav-links a.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -6px;
+    height: 2px;
+    background: var(--terracotta);
+    border-radius: 2px;
+  }
+
+  .home-header .nav-links a:hover {
+    color: var(--terracotta-deep);
+    background: transparent;
+  }
+
+  .home-header .nav-links .login-pill {
+    margin-left: 10px;
+  }
+
+  .home-header .nav-links .login-pill.active::after {
+    display: none;
+  }
+
+  .hero-tile {
+    padding: 80px 0 88px;
+  }
+
+  .hero-tile-grid {
+    grid-template-columns: 1.15fr 1fr;
+    gap: 60px;
+  }
+
+  .feature-strip-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 32px;
+  }
+
+  .feature-item {
+    padding: 6px 8px;
+    border-left: 1px solid rgba(81, 55, 31, .12);
+    padding-left: 22px;
+  }
+
+  .feature-item:first-child {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .review-band-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+  }
+
+  .review-band {
+    padding: 84px 0;
+  }
+}
+
+/* Mobile homepage tweaks */
+@media (max-width: 640px) {
+  .home-header .menu-toggle {
+    margin-left: auto;
+  }
+
+  .brand-stack strong {
+    font-size: 18px;
+  }
+
+  .brand-stack small {
+    font-size: 9px;
+    letter-spacing: .2em;
+  }
+
+  .brand-mark-tile {
+    width: 46px;
+    height: 46px;
+  }
+
+  .hero-cta {
+    width: 100%;
+  }
+}
