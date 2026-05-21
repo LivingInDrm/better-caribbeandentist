@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create Patient Account | Key West Family Dentistry</title>
+    <meta name="description" content="Create your Key West Family Dentistry patient portal account.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="top-note"><div class="site-shell"><span>379 Main St. Laurel, MD 20707</span><a href="tel:3017254118">301-725-4118</a></div></div>
+    <header class="nav-wrap">
+      <nav class="nav site-shell" aria-label="Primary navigation">
+        <a class="brand" href="index.html"><img class="brand-mark" src="assets/logo/logo-mark-192.png" width="48" height="48" alt=""><span>Key West<br>Family Dentistry</span></a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-menu-toggle><span></span></button>
+        <div class="nav-links" data-nav-links>
+          <a href="index.html">Home</a><a href="services.html">Services</a><a href="doctor.html">Dr. Arnouk</a><a href="reviews.html">Reviews</a><a href="contact.html">Contact</a><a class="active" href="login.html">Patient Login</a><a class="btn" href="contact.html">Schedule a Complimentary Consultation</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="section">
+        <div class="site-shell auth-grid">
+          <form class="form-card">
+            <p class="eyebrow">New patient access</p>
+            <h1>Create Your Patient Portal Account</h1>
+            <div class="form-grid two" style="margin-top:24px">
+              <label>Name<input required autocomplete="name" placeholder="Your name"></label>
+              <label>Email<input type="email" required autocomplete="email" placeholder="you@example.com"></label>
+              <label>Phone<input required autocomplete="tel" placeholder="(555) 555-5555"></label>
+              <label>Date of birth<input type="date" required></label>
+              <label>Password<input type="password" required autocomplete="new-password" placeholder="Create a password"></label>
+              <label>Appointment interest<select><option>Complimentary consultation</option><option>Second opinion</option><option>Cosmetic dentistry</option><option>Restorative dentistry</option></select></label>
+            </div>
+            <label class="consent" style="margin-top:14px"><input type="checkbox" required class="consent-box"> <span>I agree to be contacted about my patient portal account.</span></label>
+            <div class="actions"><button class="btn" type="submit">Create Account</button></div>
+            <p class="small-link" data-form-message></p>
+          </form>
+          <div class="paper-card">
+            <span class="icon"><img src="assets/icons/icon-shield.svg" alt=""></span>
+            <h2>Private, helpful, and simple.</h2>
+            <p class="lede">Your portal helps keep appointments, messages, profile details, and payment plan information organized.</p>
+            <ul class="mini-list">
+              <li>Complimentary consultations</li>
+              <li>Flexible payment plan conversations</li>
+              <li>Clear follow-up from the office team</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer"><div class="site-shell footer-grid"><div><h2>Already have an account?</h2><p><a href="login.html">Sign in to your patient portal</a> or call us for help.</p></div><div><h3>Visit</h3><p>379 Main St.<br>Laurel, MD 20707</p></div><div><h3>Call</h3><p><a href="tel:3017254118">301-725-4118</a></p></div></div></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

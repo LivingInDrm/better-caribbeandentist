@@ -1,0 +1,8 @@
+# Verdent workspace metadata
+.verdent/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
